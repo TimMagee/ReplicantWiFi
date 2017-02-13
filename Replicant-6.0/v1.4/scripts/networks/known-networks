@@ -1,0 +1,11 @@
+# This file is part of "RepWifi", a set of shell scripts to ease libre wifi connectivity.
+# This is a simple file used to store the "known" wifi networks
+# lines starting with "#" are comments and are ignored by the parsing scripts.
+# networks credentials are stored using the format:
+#         <SSID>[TAB]<password>
+# *DO NOT* SURROUND VALUES WITH QUOTES! store the bare naked stirngs as they are.
+# if you store a funky SSID name, or an over-complicated password
+# containing a [TAB], then the whole "known networks storage" will break.
+# Anyway it's highly unlikely to ever meet such a network.
+# Don't mess with the contents of this file, unless you feel like hacking
+# and you know what you're doing. Let the scripts do the magic. And enjoy!
